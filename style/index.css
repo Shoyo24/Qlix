@@ -1,0 +1,245 @@
+/* -----GLOBAL SELECTORS */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+html {
+    background-color: #dcdde1;
+}
+
+html, body {
+    width: 100%;
+}
+
+body {
+    line-height: 1.6;
+}
+
+.article-title {
+    margin: 10px;
+    border: 1px solid black;
+}
+
+/* -----NAVBAR-BACKGROUND----- */
+.navbar-background {
+    display: contents;
+    background-image: url(/img/blue-navbar.jpg);
+}
+
+/* -----NAVBAR----- */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+/* -----LOGO----- */
+.logo {
+    border: 1px solid black;
+}
+
+.logo img {
+    height: 100px;
+    width: 100px;
+}
+
+/* -----NAVBAR LEFT----- */
+.navbar-list-left {
+    display: flex;
+    align-self: center;
+    border: 1px solid black;
+}
+
+
+.navbar-list-left ul {
+    display: flex;
+    list-style: none;
+    border: 1px solid black;
+    margin: 10px;
+    gap: 25px;
+}
+
+.narbar-list-left ul li {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-list-left ul li a {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    margin: 10px;
+}
+
+.navbar-list-left ul li a:hover {
+    background-color: #808e9b;
+}
+
+/* -----navbar-list-right----- */
+.navbar-list-right {
+    display: flex;
+    gap: 100px;
+    justify-self: flex-end;
+    align-self: center;
+    border: 1px solid black;
+}
+
+
+.navbar-list-right ul {
+    display: flex;
+    list-style: none;
+    border: 1px solid black;
+    margin: 10px;
+    gap: 25;
+}
+
+.narbar-list-right ul li {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-list-right ul li a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    margin: 10px;
+}
+
+/* -----nav-info----- */
+.nav-2 {
+    display: flex;
+    flex-direction: row;
+    background-color: #808e9b;  
+    border: 1px solid black;
+    padding: 4px;
+    justify-content: space-evenly;
+}
+
+.import-icon {
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+.qlixEmail {
+    border: 1px solid black;
+    width: 33.33%;
+    text-align: center;
+
+}
+
+.qlixNumber {
+    border: 1px solid black;
+    width: 33.33%;
+
+}
+
+.mediaIcons {
+    border: 1px solid black;
+    width: 33.33%;
+}
+
+.mediaIcons ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.mediaIcons ul li a {
+    text-decoration: none;
+    box-shadow: none;
+    color: black;
+}
+
+/* -----BODY----- */
+
+/* -----Container-1 (About)----- */
+.container-1 > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    margin: 10px
+}
+
+/* .box-1 {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.box-2 {
+    border: 1px solid black;
+    padding: 10px;
+} */
+
+/* -----Container-2 (Services)----- */
+.container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 50px;
+    border: 1px solid black;
+}
+
+.col-1 {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.col-2 {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* -----Container-3 (contact-form)----- */
+.container-3 {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container-3 form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ------CONTAINER-4----- */
+.container-4 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.contact-box {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.contact-us-header {
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.info-box {
+    margin: 10px;
+}
