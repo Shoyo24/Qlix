@@ -23,49 +23,51 @@ body {
 
 .article-title {
     margin: 10px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 /* -----NAVBAR-BACKGROUND----- */
-.navbar-background {
-    display: contents;
-    background-image: url(/img/blue-navbar.jpg);
+.navbar-bg {
+    background-image: url(/img/navbar-bg.jpg);
+    min-height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* -----NAVBAR----- */
 .navbar {
     display: flex;
+    align-items: baseline;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    margin: 10px;
-    border: 1px solid black;
+    margin-left: 15rem;
+    margin-right: 15rem;
 }
 
-/* -----LOGO----- */
-.logo {
-    border: 1px solid black;
+.logo-section {
+    padding: 20px;
+    margin: 20px;
 }
 
-.logo img {
-    height: 100px;
-    width: 100px;
+.logo-section img {
+    height: 140px;
+    width: 140px;
 }
 
 /* -----NAVBAR LEFT----- */
 .navbar-list-left {
     display: flex;
     align-self: center;
-    border: 1px solid black;
 }
 
 
 .navbar-list-left ul {
     display: flex;
     list-style: none;
-    border: 1px solid black;
     margin: 10px;
-    gap: 25px;
+    gap: 30px;
 }
 
 .narbar-list-left ul li {
@@ -74,34 +76,34 @@ body {
 }
 
 .navbar-list-left ul li a {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
-    color: black;
+    color: whitesmoke;
     text-decoration: none;
     list-style: none;
+    padding: 12px;
     margin: 10px;
+    background-color: #ffffff00;
+    border-radius: 25px;
 }
 
 .navbar-list-left ul li a:hover {
-    background-color: #808e9b;
+    background-color: #a85e83a4;
+    border-radius: 25px;
 }
 
 /* -----navbar-list-right----- */
 .navbar-list-right {
     display: flex;
-    gap: 100px;
     justify-self: flex-end;
     align-self: center;
-    border: 1px solid black;
 }
 
 
 .navbar-list-right ul {
     display: flex;
-    list-style: none;
-    border: 1px solid black;
-    margin: 10px;
-    gap: 25;
+    justify-content: space-between;
+    list-style: none;   
 }
 
 .narbar-list-right ul li {
@@ -110,79 +112,58 @@ body {
 }
 
 .navbar-list-right ul li a {
-    font-size: 20px;
+    display: flex;
+    font-size: 25px;
     font-weight: bold;
     text-decoration: none;
-    color: black;
+    color: white;
     list-style: none;
-    margin: 10px;
+    margin: 5px;
+    padding: 15px;
 }
 
-/* -----nav-info----- */
-.nav-2 {
-    display: flex;
-    flex-direction: row;
-    background-color: #808e9b;  
-    border: 1px solid black;
-    padding: 4px;
-    justify-content: space-evenly;
+.navbar-list-right ul li a:hover {
+    color: #a85e83c4;
 }
 
 .import-icon {
-    font-size: 25px;
-    padding-top: 5px;
-}
-
-.qlixEmail {
-    border: 1px solid black;
-    width: 33.33%;
-    text-align: center;
-
-}
-
-.qlixNumber {
-    border: 1px solid black;
-    width: 33.33%;
-
-}
-
-.mediaIcons {
-    border: 1px solid black;
-    width: 33.33%;
-}
-
-.mediaIcons ul {
-    display: flex;
-    list-style: none;
-    justify-content: space-evenly;
-}
-
-.mediaIcons ul li a {
-    text-decoration: none;
-    box-shadow: none;
-    color: black;
+    font-size: 40px;
+    font-weight: 550;
 }
 
 /* -----BODY----- */
 
 /* -----Container-1 (About)----- */
-.container-1 > div {
+.container-1 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    border: 1px solid black;
-    margin: 10px
+    padding: 15px;
+    margin: 10px;
+    color: white;
+    width: 50%;
+    margin: 3% 10% 5% 10%;
 }
 
-/* .box-1 {
-    border: 1px solid black;
+.container-1 h1 {
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    width: 65%;
+    font-size: 60px;
+}
+
+.container-1 > div {
     padding: 10px;
+    font-size: 20px;
+    font-weight: 550;
 }
 
 .box-2 {
-    border: 1px solid black;
-    padding: 10px;
-} */
+    margin-top: 10px;
+}
+
 
 /* -----Container-2 (Services)----- */
 .container-2 {
@@ -208,7 +189,7 @@ body {
 .container-3 {
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 10px;
     padding: 10px;
 }
@@ -226,7 +207,7 @@ body {
 }
 
 .contact-box {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -234,7 +215,7 @@ body {
 }
 
 .contact-us-header {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 10px;
     display: flex;
     justify-content: center;
