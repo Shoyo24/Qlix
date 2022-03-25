@@ -1,7 +1,7 @@
 /* -----NAVBAR-BACKGROUND----- */
 .navbar-bg {
     background-image: url(/img/navbar-bg.jpg);
-    min-height: 800px;
+    min-height: 1000px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

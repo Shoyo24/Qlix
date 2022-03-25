@@ -28,20 +28,25 @@ body {
 
 /* -----wrapper-2 (Services)----- */
 i {
-    display: flex;
-    align-items: baseline;
-    font-size: 40px;
+    border-radius: 25px;
+    padding: .5em;
+    font-size: 45px;
     border: 1px solid black;
+}
+
+.service {
+    margin-top: 10px;
 }
 
 .wrapper-1 {
     display: flex;
-    border: 1px solid black;
+    height: 350px;
+    margin: 5em 15rem;
 }
 
 .wrapper-1 {
     display: flex;
-    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .wrapper-1 > div {
@@ -50,16 +55,16 @@ i {
     justify-content: space-evenly;
     padding: 15px;
     border: 1px solid black;
+    border-radius: 25px;
+    margin: 10px;
+    width: 16.66%;
 }
  
 .wrapper-2 {
     display: flex;
-    border: 1px solid black;
-}
-
-.wrapper-2 {
-    display: flex;
-    flex-direction: row;
+    justify-content: space-evenly;
+    height: 350px;
+    margin: 5em 15rem;
 }
 
 .wrapper-2 > div {
@@ -68,6 +73,9 @@ i {
     justify-content: space-evenly;
     padding: 15px;
     border: 1px solid black;
+    border-radius: 25px;
+    margin: 10px;
+    width: 20%;
 }
 
 /* -----Container-3 (contact-form)----- */
