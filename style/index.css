@@ -10,7 +10,7 @@
 
 
 html {
-    background-color: #dcdde1;
+    background-color: #ffffff;
 }
 
 html, body {
@@ -29,7 +29,7 @@ body {
 /* -----wrapper-2 (Services)----- */
 i {
     border-radius: 25px;
-    padding: .5em;
+    padding: 5em;
     font-size: 45px;
     border: 1px solid black;
 }
