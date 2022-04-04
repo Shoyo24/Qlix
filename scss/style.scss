@@ -1,3 +1,5 @@
+$card-title-color: #a85e83;
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
 #logo {
@@ -6,32 +8,42 @@
     height: 150px;
 }
 
-#nav-menu ul li a {
-    font-family: 'Lato', sans-serif;
-    color: white;
-    margin: 5px;
-    font-size: 22px;
-    padding: 8px;
+#nav-menu {
+    li {
+        font-family: 'Lato', sans-serif;
+        color: white;
+        margin: 5px;
+        font-size: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.navbar {
+    ul {
+        margin: 20px;
+    }
+
+    li:hover {
+        border-radius: 25px;
+        background-color: #FBAB7E;
+        background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);    
+    }
 }
 
 .card {
     max-width: 350px;
     max-height: 300px;
     border-radius: 25px;
+
+    .card:hover {
+        -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+        box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+        -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    }
 }
 
-.card:hover {
-    -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
-    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
-}
-
-.navbar ul li a:hover {
-    border-radius: 25px;
-    background-color: #FBAB7E;
-    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
-    
-}
 
 .section-title {
     display: flex;
