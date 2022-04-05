@@ -1,15 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
 #logo {
   margin: 10px;
-  width: 140px;
-  height: 150px;
+  height: 100px;
 }
 
 #nav-menu li {
   font-family: 'Lato', sans-serif;
-  color: white;
   margin: 5px;
-  font-size: 22px;
+  font-size: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21,33 +19,40 @@
           align-items: center;
 }
 
+#nav-menu a {
+  color: white;
+}
+
 .navbar ul {
   margin: 20px;
 }
 
 .navbar li:hover {
-  border-radius: 25px;
-  background-color: #FBAB7E;
-  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+  text-decoration: underline;
+  -webkit-text-decoration-color: #a85e83;
+          text-decoration-color: #a85e83;
 }
 
 .card {
   max-width: 350px;
   max-height: 300px;
   border-radius: 25px;
+  overflow: hidden;
 }
 
-.card .card:hover {
+.card .card-body:hover {
   -webkit-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
   box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
 }
 
-.section-title {
+.service-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 1px solid black;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #container-service {
@@ -58,7 +63,13 @@
 #write-us-box {
   border: 1px solid rgba(0, 0, 0, 0.014);
   border-radius: 25px;
-  background-color: snow;
+  background-color: white;
   -webkit-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.52);
   box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.397);
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
 }
