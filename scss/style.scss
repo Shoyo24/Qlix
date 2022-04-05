@@ -1,5 +1,4 @@
 $card-title-color: #a85e83;
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
 #logo {
@@ -32,6 +31,7 @@ $card-title-color: #a85e83;
     }
 }
 
+
 .card {
     max-width: 350px;
     max-height: 300px;
@@ -49,7 +49,6 @@ $card-title-color: #a85e83;
     display: flex;
     border: 1px solid black;
 }
-
 
 #container-service {
     background-color: #8BC6EC;
